@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" Connection="1" SerialNo="0" IP="" TargetDevice="STM32F427II" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="C:\Users\richard.luo\Desktop\junior1.1\MDK-ARM\chassis\chassis.axf" />
+            <DataFile Name="" />
+            <RawFile Name="" />
+            <Scope>
+                <Options TimeResolutionUs="1000000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="pit_p_f" Address="0x20000040" Type="int" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-15736" YMaxSampled="27560" YAvgSampled="-288" Offset="4" ShowInGraph="1" YOffset="430" IsAutoConfig="0" YResolution="20000" MaxValue="354000000" File="app\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="pit_p_r" Address="0x2000003C" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-10000" YMaxSampled="25000" YAvgSampled="-295" Offset="8" ShowInGraph="1" YOffset="430" IsAutoConfig="0" YResolution="20000" MaxValue="1770000000" File="app\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_p_f" Address="0x20000048" Type="int" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="0" GraphColorBlue="255" YMinSampled="0" YMaxSampled="331" YAvgSampled="328" Offset="12" ShowInGraph="0" YOffset="580" IsAutoConfig="0" YResolution="100" MaxValue="668" File="app\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="yaw_p_r" Address="0x20000044" Type="int" TypeID="12" Size="4" GraphColorRed="160" GraphColorGreen="32" GraphColorBlue="240" YMinSampled="0" YMaxSampled="251" YAvgSampled="250" Offset="16" ShowInGraph="0" YOffset="580" IsAutoConfig="0" YResolution="100" MaxValue="668" File="app\gimbal_task.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>
